@@ -1,4 +1,4 @@
-# BrokenPortal
+# Vuln_WebApp
 
 A deliberately vulnerable web application built with Python and Flask for cybersecurity coursework. It contains four intentional vulnerabilities that demonstrate real-world attack classes in a controlled, isolated environment. This project is for educational use only and must never be deployed on a public-facing server.
 
