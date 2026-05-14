@@ -119,8 +119,7 @@ def traversal():
     content = None
     if f:
         try:
-            path = os.path.join("static", f)
-            with open(path, "r", errors="replace") as fh:
+            with open(f, "r", errors="replace") as fh:
                 content = fh.read()
         except Exception as e:
             content = f"Error: {e}"
